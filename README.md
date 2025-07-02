@@ -135,17 +135,12 @@ Create a `.github/workflows/superqa.yml` file with your desired configuration us
 ## Support
 
 - 📖 [SuperQA Documentation](https://docs.superqa.ai)
-- 💬 [Community Support](https://community.superqa.ai)
 - 📧 [Email Support](mailto:support@superqa.ai)
 - 🐛 [Report Issues](https://github.com/superqa-ai/superqa-githubaction/issues)
 
 ## License
 
 This GitHub Action is released under the [MIT License](LICENSE).
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ---
 
