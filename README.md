@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Run SuperQA Tests
-        uses: superqa-ai/superqa-githubaction@v1.0.0
+        uses: superqa-ai/superqa-githubaction@v1
         with:
           api_key: ${{ secrets.SUPERQA_API_KEY }}
           project_name: 'MyProject'
@@ -56,7 +56,7 @@ jobs:
 
 ```yaml
 - name: Run SuperQA Tests (Custom URL)
-  uses: superqa-ai/superqa-githubaction@v1.0.0
+  uses: superqa-ai/superqa-githubaction@v1
   with:
     api_key: ${{ secrets.SUPERQA_API_KEY }}
     project_name: 'MyProject'
@@ -85,7 +85,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Run SuperQA Tests - ${{ matrix.test_suite }}
-        uses: superqa-ai/superqa-githubaction@v1.0.0
+        uses: superqa-ai/superqa-githubaction@v1
         with:
           api_key: ${{ secrets.SUPERQA_API_KEY }}
           project_name: 'MyApp'
