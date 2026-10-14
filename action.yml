@@ -125,6 +125,12 @@ outputs:
     description: 'Number of tests failed'
   tests_generated:
     description: 'Number of test cases generated automatically for uncovered Protect impact'
+  existing_tests_selected:
+    description: 'Number of relevant existing test cases selected for regression'
+  coverage_gap_count:
+    description: 'Number of functional coverage gaps remaining after matching and validation'
+  generation_outcome:
+    description: 'NEW_TESTS_GENERATED, NO_NEW_TESTS_REQUIRED, or COVERAGE_GAPS_REPORTED'
 
 runs:
   using: 'docker'
